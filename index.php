@@ -1,11 +1,16 @@
 <?php
+include './includes/vars.php';
+$page = 'index';
+$pageTitle = $pageVars[$page]['title'];
+$pageHeader = $pageVars[$page]['header'];
+
 include './includes/header.php';
 include './includes/menu.php';
 ?>
 
-<div class="col-12 col-md-10">
+<div class="col-12 col-md-11">
     <main>
-        <h1>home</h1>
+        <h1><?php echo $pageHeader?></h1>
     </main>
 </div>
 

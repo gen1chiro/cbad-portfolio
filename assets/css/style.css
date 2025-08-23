@@ -14,15 +14,25 @@ body {
     gap: 0;
 }
 
+#content-container {
+    flex-grow: 0;
+}
+
 #menu {
-    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 10px;
+    height: 100%;
     background-color: blue;
 }
 
+#nav {
+    justify-content: center;
+    gap: 10px;
+}
+
 main{
+    height: 100%;
     background-color: red;
 }
 
@@ -33,9 +43,8 @@ main{
 }
 /* md */
 @media (min-width: 768px) {
-    #menu {
-        flex-direction: column;
-        align-items: center;
+    #content-container {
+        flex-grow: 1;
     }
 }
 /* lg */
