@@ -1,9 +1,10 @@
 :root {
+    --zinc-600: #52525b;
     --zinc-700: #3f3f46;
     --zinc-800: #27272a;
-    --zinc-600: #52525b;
+    --zinc-900: #18181b;
     --gray-200: #e5e7eb;
-    --bs-body-bg: var(--zinc-800) !important;
+    --bs-body-bg: black !important;
     --bs-body-color: var(--gray-200) !important;
 }
 
@@ -38,10 +39,11 @@ body {
 }
 
 #nav {
+    width: 100%;
     justify-content: center;
     gap: 10px 15px;
-    background-color: var(--zinc-700);
-    border: 1px solid var(--zinc-600);
+    background-color: var(--zinc-900);
+    border: 1px solid var(--zinc-700);
     padding: 8px;
     border-radius: 50px;
 }
@@ -58,14 +60,23 @@ body {
 
 #nav a:hover {
     background-color: white;
-    color: var(--zinc-700);
+    color: var(--zinc-800);
     transform: scale(1.2);
+}
+
+.active {
+    background-color: white;
+    color: var(--zinc-800) !important;
+}
+
+.tooltip-inner {
+    color: white !important;
 }
 
 main{
     height: 100%;
-    background-color: var(--zinc-700);
-    border: 1px solid var(--zinc-600);
+    background-color: var(--zinc-900);
+    border: 1px solid var(--zinc-700);
     border-radius: 20px;
     margin-top: 20px;
     padding: 10px;
@@ -73,7 +84,7 @@ main{
 
 footer {
     text-align: center;
-    color: var(--zinc-600);
+    color: var(--gray-200);
     font-size: small;
 }
 
@@ -90,6 +101,10 @@ footer {
 
     main {
         margin-top: 0;
+    }
+
+    #nav {
+        width: fit-content;
     }
 }
 /* lg */

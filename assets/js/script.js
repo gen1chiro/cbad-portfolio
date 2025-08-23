@@ -13,7 +13,25 @@ const getCurrenDate = () => {
 
 dateElement.innerText = getCurrenDate();
 
-document.addEventListener('DOMContentLoaded', () => {
+const addToolTips = () => {
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     tooltipTriggerList.forEach(el => new bootstrap.Tooltip(el));
+}
+
+const highlightActiveLink = () => {
+    const currentPath = window.location.pathname.split('/').pop();
+    const navLinks = document.querySelectorAll('.nav-item');
+    console.log(currentPath, navLinks);
+
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute('href');
+        currentPath === linkPath
+            ? link.classList.add('active')
+            : link.classList.remove('active');
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    addToolTips();
+    highlightActiveLink();
 });
