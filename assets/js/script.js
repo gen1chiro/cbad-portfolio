@@ -21,7 +21,6 @@ const addToolTips = () => {
 const highlightActiveLink = () => {
     const currentPath = window.location.pathname.split('/').pop();
     const navLinks = document.querySelectorAll('.nav-item');
-    console.log(currentPath, navLinks);
 
     navLinks.forEach(link => {
         const linkPath = link.getAttribute('href');

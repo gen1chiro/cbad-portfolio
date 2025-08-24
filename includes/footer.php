@@ -1,6 +1,6 @@
         </div> <!-- Closing div for row -->
         <footer>
-            <p>© <span id="date-display"></span> Jul Leo Javellana. All rights reserved.</p>
+            <p class="fw-light">© <span id="date-display"></span> Jul Leo Javellana. All rights reserved.</p>
         </footer>
     </div><!-- Closing div for container -->
     <script src="assets/js/script.js"></script>

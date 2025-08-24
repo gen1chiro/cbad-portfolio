@@ -2,7 +2,7 @@
 $pageVars = [
     'index' => [
         'title' => 'Home | My Portfolio',
-        'header' => 'Welcome to My Portfolio'
+        'header' => "I'm Jul"
     ],
     'about' => [
         'title' => 'About Me | My Portfolio',
