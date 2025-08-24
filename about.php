@@ -38,6 +38,10 @@ include './includes/menu.php';
                     <img src="assets/svg/vercel.svg" alt="vercel">
                     <p>Platform for deploying and hosting web apps.</p>
                 </div>
+                <div class="technologies">
+                    <img src="assets/svg/react-router.svg" alt="react-router">
+                    <p>Routing library in React apps.</p>
+                </div>
             </div>
         </div>
     </main>
