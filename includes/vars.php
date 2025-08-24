@@ -14,7 +14,7 @@ $pageVars = [
     ],
     'contact' => [
         'title' => 'Contact | My Portfolio',
-        'header' => 'Get in Touch'
+        'header' => 'Contact Me'
     ]
 ];
 
