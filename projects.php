@@ -9,7 +9,7 @@ include './includes/menu.php';
 ?>
 
 <div class="col-12 col-md-11">
-    <main>
+    <main class="project-main">
         <h1><?php echo $pageHeader?></h1>
     </main>
 </div>
