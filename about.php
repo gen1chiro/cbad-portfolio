@@ -10,13 +10,13 @@ include './includes/menu.php';
 
 <div class="col-12 col-md-11">
     <main class="about-main">
-        <div>
+        <div class="fade-in">
             <h2><?php echo $pageHeader?></h2>
             <p>Hi, I’m Jul, a computer science student passionate about web development and front-end design. I’m currently learning React and TypeScript and building practice projects to sharpen my skills in responsive design and clean UI development.</p>
             <p>I enjoy solving problems, experimenting with new technologies, and creating projects that combine functionality and aesthetics. I enjoy the process of converting static designs to beautiful and functional web pages. My goal is to grow as a full-stack developer while building a strong portfolio of real-world applications.</p>
         </div>
         <div>
-            <h2>Tools and Technologies</h2>
+            <h2 class="fade-in">Tools and Technologies</h2>
             <div class="technologies-container">
                 <div class="technologies">
                     <img src="assets/svg/react.svg" alt="react">

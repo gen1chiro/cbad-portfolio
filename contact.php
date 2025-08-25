@@ -10,12 +10,12 @@ include './includes/menu.php';
 
 <div class="col-12 col-md-11">
     <main class="contact-main">
-        <img src="assets/images/contact.png" alt="contact" class="contact-image rounded-circle"/>
-        <div>
+        <img src="assets/images/contact.png" alt="contact" class="contact-image rounded-circle fade-in"/>
+        <div class="fade-in">
             <h1><?php echo $pageHeader?></h1>
             <h5>Get in touch, let's talk.</h5>
         </div>
-        <div class="icons">
+        <div class="icons fade-in">
             <i class="bi bi-github"></i>
             <i class="bi bi-linkedin"></i>
             <i class="bi bi-envelope-fill"></i>

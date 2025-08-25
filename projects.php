@@ -10,8 +10,8 @@ include './includes/menu.php';
 
 <div class="col-12 col-md-11">
     <main class="project-main">
-        <h2><?php echo $pageHeader?></h2>
-        <p>Here are some of the things I've been working on while learning web development.</p>
+        <h2 class="fade-in"><?php echo $pageHeader?></h2>
+        <p class="fade-in">Here are some of the things I've been working on while learning web development.</p>
         <div class="project-container">
             <div class="project-tile">
                 <img src="assets/images/tasky.png" alt="tasky"/>

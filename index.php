@@ -10,7 +10,7 @@ include './includes/menu.php';
 
 <div class="col-12 col-md-11">
     <main class="index-main">
-        <div class="index-main-inner">
+        <div class="index-main-inner fade-in">
             <p>kamusta,</p>
             <h1 class="index-header"><?php echo $pageHeader?><span class="name">*</span></h1>
             <p>I'm an aspiring Full-Stack Software Engineer and 3rd year computer science student at the University of St. La Salle.</p>
@@ -20,7 +20,7 @@ include './includes/menu.php';
                 <a href="contact.php">Contact</a>
             </div>
         </div>
-        <img src="assets/images/home.png" alt="home image" class="home-image rounded-circle"/>
+        <img src="assets/images/home.png" alt="home image" class="home-image rounded-circle fade-in"/>
     </main>
 </div>
 
