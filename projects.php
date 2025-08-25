@@ -16,7 +16,7 @@ include './includes/menu.php';
             <div class="project-tile">
                 <img src="assets/images/tasky.png" alt="tasky"/>
                 <div>
-                    <a>Tasky (WIP) <i class="bi bi-link-45deg"></i></a>
+                    <a href="https://tasky-cyan-ten.vercel.app/" target="_blank">Tasky <i class="bi bi-link-45deg"></i></a>
                     <p>A collaborative real-time kanban web-app with firebase authentication and CRUD features</p>
                     <div class="tech">
                         <p>react</p>
