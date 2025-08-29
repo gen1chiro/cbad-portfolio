@@ -316,6 +316,10 @@ main{
     font-size: 30px;
 }
 
+.icons > a {
+    color: white;
+}
+
 .contact-image {
     background-color: white;
     height: 150px;

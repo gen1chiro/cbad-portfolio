@@ -16,9 +16,15 @@ include './includes/menu.php';
             <h5>Get in touch, let's talk.</h5>
         </div>
         <div class="icons fade-in">
-            <i class="bi bi-github"></i>
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-envelope-fill"></i>
+            <a href="https://github.com/gen1chiro" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/jul-leo-javellana-b03832344" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:juljavellana1218@gmail.com" target="_blank">
+                <i class="bi bi-envelope-fill"></i>
+            </a>
             <i class="bi bi-facebook"></i>
         </div>
     </main>
